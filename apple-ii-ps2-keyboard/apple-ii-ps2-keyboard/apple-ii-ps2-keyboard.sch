@@ -529,4 +529,95 @@ Text Notes 7300 7250 0    50   ~ 0
 1
 Text Notes 7400 7250 0    50   ~ 0
 1
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 61261EA4
+P 4800 5300
+F 0 "J3" H 4908 5481 50  0000 C CNN
+F 1 "SHIFT_KEY" H 4908 5390 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4800 5300 50  0001 C CNN
+F 3 "~" H 4800 5300 50  0001 C CNN
+	1    4800 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 5300 2    50   Input ~ 0
+SHIFT_KEY
+Text GLabel 2900 4000 0    50   Input ~ 0
+SHIFT_KEY
+$Comp
+L Connector_Generic:Conn_01x08 J4
+U 1 1 61263F5E
+P 3850 5600
+F 0 "J4" H 3930 5592 50  0000 L CNN
+F 1 "EXP" H 3930 5501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3850 5600 50  0001 C CNN
+F 3 "~" H 3850 5600 50  0001 C CNN
+	1    3850 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 5300 0    50   Input ~ 0
+A0
+Text GLabel 3650 5400 0    50   Input ~ 0
+A1
+Text GLabel 3650 5500 0    50   Input ~ 0
+A2
+Text GLabel 3650 5600 0    50   Input ~ 0
+A3
+Text GLabel 3650 5700 0    50   Input ~ 0
+A4
+Text GLabel 3650 5800 0    50   Input ~ 0
+A5
+Text GLabel 3650 5900 0    50   Input ~ 0
+A6
+Text GLabel 3650 6000 0    50   Input ~ 0
+A7
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 6126BACA
+P 3850 6300
+F 0 "J5" H 3930 6292 50  0000 L CNN
+F 1 "EXP_PWR" H 3930 6201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3850 6300 50  0001 C CNN
+F 3 "~" H 3850 6300 50  0001 C CNN
+	1    3850 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 6126C911
+P 3650 6300
+F 0 "#PWR0104" H 3650 6150 50  0001 C CNN
+F 1 "VCC" H 3665 6473 50  0000 C CNN
+F 2 "" H 3650 6300 50  0001 C CNN
+F 3 "" H 3650 6300 50  0001 C CNN
+	1    3650 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 6126CCC6
+P 3650 6400
+F 0 "#PWR0105" H 3650 6150 50  0001 C CNN
+F 1 "GND" H 3655 6227 50  0000 C CNN
+F 2 "" H 3650 6400 50  0001 C CNN
+F 3 "" H 3650 6400 50  0001 C CNN
+	1    3650 6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3900 3400 2    50   Input ~ 0
+A0
+Text GLabel 3900 3500 2    50   Input ~ 0
+A1
+Text GLabel 3900 3600 2    50   Input ~ 0
+A2
+Text GLabel 3900 3700 2    50   Input ~ 0
+A3
+Text GLabel 3900 3800 2    50   Input ~ 0
+A4
+Text GLabel 3900 3900 2    50   Input ~ 0
+A5
+Text GLabel 3900 4000 2    50   Input ~ 0
+A6
+Text GLabel 3900 4100 2    50   Input ~ 0
+A7
 $EndSCHEMATC
