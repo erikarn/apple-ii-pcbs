@@ -620,4 +620,45 @@ Text GLabel 3900 4000 2    50   Input ~ 0
 A6
 Text GLabel 3900 4100 2    50   Input ~ 0
 A7
+Text GLabel 2900 2900 0    50   Input ~ 0
+UART_TX
+Text GLabel 2900 2800 0    50   Input ~ 0
+UART_RX
+$Comp
+L Connector_Generic:Conn_01x03 J6
+U 1 1 61285525
+P 3850 6950
+F 0 "J6" H 3930 6992 50  0000 L CNN
+F 1 "UART" H 3930 6901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3850 6950 50  0001 C CNN
+F 3 "~" H 3850 6950 50  0001 C CNN
+	1    3850 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 61288445
+P 3650 7050
+F 0 "#PWR0106" H 3650 6800 50  0001 C CNN
+F 1 "GND" H 3655 6877 50  0000 C CNN
+F 2 "" H 3650 7050 50  0001 C CNN
+F 3 "" H 3650 7050 50  0001 C CNN
+	1    3650 7050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 6850 0    50   Input ~ 0
+UART_RX
+Text GLabel 3650 6950 0    50   Input ~ 0
+UART_TX
+$Comp
+L power:GND #PWR?
+U 1 1 6129DDBB
+P 6500 3650
+F 0 "#PWR?" H 6500 3400 50  0001 C CNN
+F 1 "GND" V 6505 3522 50  0000 R CNN
+F 2 "" H 6500 3650 50  0001 C CNN
+F 3 "" H 6500 3650 50  0001 C CNN
+	1    6500 3650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
