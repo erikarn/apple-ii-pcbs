@@ -1,0 +1,532 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 6119AC5A
+P 3400 3400
+F 0 "A1" H 3900 2500 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 4150 2400 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 3400 3400 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 3400 3400 50  0001 C CNN
+	1    3400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J2
+U 1 1 6119EE4D
+P 6650 1850
+F 0 "J2" H 6700 2367 50  0000 C CNN
+F 1 "apple-ii" H 6700 2276 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 6650 1850 50  0001 C CNN
+F 3 "~" H 6650 1850 50  0001 C CNN
+	1    6650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J1
+U 1 1 611A098A
+P 6700 3350
+F 0 "J1" H 6780 3392 50  0000 L CNN
+F 1 "PS/2" H 6780 3301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 6700 3350 50  0001 C CNN
+F 3 "~" H 6700 3350 50  0001 C CNN
+	1    6700 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5250 1650 0    50   Input ~ 0
+STROBE
+Text GLabel 6450 1550 0    50   Input ~ 0
+APPLE_5V
+Text GLabel 5250 1950 0    50   Input ~ 0
+DATA_5
+Text GLabel 5250 2050 0    50   Input ~ 0
+DATA_4
+Text GLabel 5250 2150 0    50   Input ~ 0
+DATA_6
+Text GLabel 5250 1750 0    50   Input ~ 0
+RESET_N
+Text GLabel 8000 2150 2    50   Input ~ 0
+DATA_2
+Text GLabel 8000 2050 2    50   Input ~ 0
+DATA_3
+Text GLabel 8000 1950 2    50   Input ~ 0
+DATA_0
+Text GLabel 8000 1850 2    50   Input ~ 0
+DATA_1
+Text GLabel 5600 3050 0    50   Input ~ 0
+KBD_DATA
+Text GLabel 6500 3350 0    50   Input ~ 0
+KBD_VCC
+Text GLabel 5600 3450 0    50   Input ~ 0
+KBD_CLK
+$Comp
+L power:GND #PWR02
+U 1 1 611AA081
+P 3500 4400
+F 0 "#PWR02" H 3500 4150 50  0001 C CNN
+F 1 "GND" H 3505 4227 50  0000 C CNN
+F 2 "" H 3500 4400 50  0001 C CNN
+F 3 "" H 3500 4400 50  0001 C CNN
+	1    3500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 611AAB17
+P 3600 2400
+F 0 "#PWR03" H 3600 2250 50  0001 C CNN
+F 1 "VCC" H 3615 2573 50  0000 C CNN
+F 2 "" H 3600 2400 50  0001 C CNN
+F 3 "" H 3600 2400 50  0001 C CNN
+	1    3600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 611AB1F8
+P 3400 4400
+F 0 "#PWR01" H 3400 4150 50  0001 C CNN
+F 1 "GND" H 3405 4227 50  0000 C CNN
+F 2 "" H 3400 4400 50  0001 C CNN
+F 3 "" H 3400 4400 50  0001 C CNN
+	1    3400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 611AB5CE
+P 6050 4700
+F 0 "#PWR07" H 6050 4450 50  0001 C CNN
+F 1 "GND" H 6055 4527 50  0000 C CNN
+F 2 "" H 6050 4700 50  0001 C CNN
+F 3 "" H 6050 4700 50  0001 C CNN
+	1    6050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR06
+U 1 1 611ABAC7
+P 6050 4500
+F 0 "#PWR06" H 6050 4350 50  0001 C CNN
+F 1 "VCC" H 6065 4673 50  0000 C CNN
+F 2 "" H 6050 4500 50  0001 C CNN
+F 3 "" H 6050 4500 50  0001 C CNN
+	1    6050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 611AC9FB
+P 6450 2250
+F 0 "#PWR08" H 6450 2000 50  0001 C CNN
+F 1 "GND" H 6455 2077 50  0000 C CNN
+F 2 "" H 6450 2250 50  0001 C CNN
+F 3 "" H 6450 2250 50  0001 C CNN
+	1    6450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 611ACFBF
+P 6500 3250
+F 0 "#PWR09" H 6500 3000 50  0001 C CNN
+F 1 "GND" V 6505 3122 50  0000 R CNN
+F 2 "" H 6500 3250 50  0001 C CNN
+F 3 "" H 6500 3250 50  0001 C CNN
+	1    6500 3250
+	0    1    1    0   
+$EndComp
+Text GLabel 7050 4500 2    50   Input ~ 0
+APPLE_5V
+$Comp
+L Device:CP_Small C1
+U 1 1 611B3053
+P 6050 4600
+F 0 "C1" H 6138 4646 50  0000 L CNN
+F 1 "100uF" H 6138 4555 50  0000 L CNN
+F 2 "" H 6050 4600 50  0001 C CNN
+F 3 "~" H 6050 4600 50  0001 C CNN
+	1    6050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 611B3A30
+P 6450 4600
+F 0 "C2" H 6542 4646 50  0000 L CNN
+F 1 "0.1uF" H 6542 4555 50  0000 L CNN
+F 2 "" H 6450 4600 50  0001 C CNN
+F 3 "~" H 6450 4600 50  0001 C CNN
+	1    6450 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4700 6450 4700
+Wire Wire Line
+	6050 4500 6450 4500
+Connection ~ 6050 4500
+Connection ~ 6050 4700
+$Comp
+L Diode:1N4001 D1
+U 1 1 611C9DDB
+P 6800 4500
+F 0 "D1" H 6800 4717 50  0000 C CNN
+F 1 "1N4001" H 6800 4626 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6800 4325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6800 4500 50  0001 C CNN
+	1    6800 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4500 6450 4500
+Connection ~ 6450 4500
+Wire Wire Line
+	6950 4500 7050 4500
+Text GLabel 5850 4500 0    50   Input ~ 0
+KBD_VCC
+Wire Wire Line
+	6050 4500 5850 4500
+Text GLabel 2900 3100 0    50   Input ~ 0
+KBD_DATA
+Text GLabel 2900 3000 0    50   Input ~ 0
+KBD_CLK
+Text GLabel 2900 3200 0    50   Input ~ 0
+STROBE
+Text GLabel 2900 3300 0    50   Input ~ 0
+DATA_0
+Text GLabel 2900 3400 0    50   Input ~ 0
+DATA_1
+Text GLabel 2900 3500 0    50   Input ~ 0
+DATA_2
+Text GLabel 2900 3600 0    50   Input ~ 0
+DATA_3
+Text GLabel 2900 3700 0    50   Input ~ 0
+DATA_4
+Text GLabel 2900 3800 0    50   Input ~ 0
+DATA_5
+Text GLabel 2900 3900 0    50   Input ~ 0
+DATA_6
+Text GLabel 2900 4100 0    50   Input ~ 0
+RESET_N
+$Comp
+L Device:R_Small R2
+U 1 1 611B5442
+P 5650 1650
+F 0 "R2" V 5600 1500 50  0000 C CNN
+F 1 "47" V 5600 1800 50  0000 C CNN
+F 2 "" H 5650 1650 50  0001 C CNN
+F 3 "~" H 5650 1650 50  0001 C CNN
+	1    5650 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 611B5A64
+P 5650 1750
+F 0 "R3" V 5600 1600 50  0000 C CNN
+F 1 "47" V 5600 1900 50  0000 C CNN
+F 2 "" H 5650 1750 50  0001 C CNN
+F 3 "~" H 5650 1750 50  0001 C CNN
+	1    5650 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 611B5E15
+P 5650 1950
+F 0 "R4" V 5600 1800 50  0000 C CNN
+F 1 "47" V 5600 2100 50  0000 C CNN
+F 2 "" H 5650 1950 50  0001 C CNN
+F 3 "~" H 5650 1950 50  0001 C CNN
+	1    5650 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 611B612E
+P 5650 2050
+F 0 "R5" V 5600 1900 50  0000 C CNN
+F 1 "47" V 5600 2200 50  0000 C CNN
+F 2 "" H 5650 2050 50  0001 C CNN
+F 3 "~" H 5650 2050 50  0001 C CNN
+	1    5650 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 611B635B
+P 5650 2150
+F 0 "R6" V 5600 2000 50  0000 C CNN
+F 1 "47" V 5600 2300 50  0000 C CNN
+F 2 "" H 5650 2150 50  0001 C CNN
+F 3 "~" H 5650 2150 50  0001 C CNN
+	1    5650 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 611B6CB8
+P 7750 2050
+F 0 "R10" V 7700 1900 50  0000 C CNN
+F 1 "47" V 7700 2200 50  0000 C CNN
+F 2 "" H 7750 2050 50  0001 C CNN
+F 3 "~" H 7750 2050 50  0001 C CNN
+	1    7750 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 611B6FD8
+P 7750 2150
+F 0 "R11" V 7700 2000 50  0000 C CNN
+F 1 "47" V 7700 2300 50  0000 C CNN
+F 2 "" H 7750 2150 50  0001 C CNN
+F 3 "~" H 7750 2150 50  0001 C CNN
+	1    7750 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 611B75BB
+P 5850 3050
+F 0 "R12" V 5654 3050 50  0000 C CNN
+F 1 "47" V 5745 3050 50  0000 C CNN
+F 2 "" H 5850 3050 50  0001 C CNN
+F 3 "~" H 5850 3050 50  0001 C CNN
+	1    5850 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R13
+U 1 1 611B7A90
+P 5850 3450
+F 0 "R13" V 5654 3450 50  0000 C CNN
+F 1 "47" V 5745 3450 50  0000 C CNN
+F 2 "" H 5850 3450 50  0001 C CNN
+F 3 "~" H 5850 3450 50  0001 C CNN
+	1    5850 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 611BB13A
+P 5900 1350
+F 0 "R1" H 5959 1396 50  0000 L CNN
+F 1 "4.7K" H 5959 1305 50  0000 L CNN
+F 2 "" H 5900 1350 50  0001 C CNN
+F 3 "~" H 5900 1350 50  0001 C CNN
+	1    5900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 611BB5AD
+P 5950 2300
+F 0 "R7" H 6009 2346 50  0000 L CNN
+F 1 "1K" H 6009 2255 50  0000 L CNN
+F 2 "" H 5950 2300 50  0001 C CNN
+F 3 "~" H 5950 2300 50  0001 C CNN
+	1    5950 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 611BBA9C
+P 5950 2400
+F 0 "#PWR05" H 5950 2150 50  0001 C CNN
+F 1 "GND" H 5955 2227 50  0000 C CNN
+F 2 "" H 5950 2400 50  0001 C CNN
+F 3 "" H 5950 2400 50  0001 C CNN
+	1    5950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 611BC015
+P 5900 1250
+F 0 "#PWR04" H 5900 1100 50  0001 C CNN
+F 1 "VCC" H 5915 1423 50  0000 C CNN
+F 2 "" H 5900 1250 50  0001 C CNN
+F 3 "" H 5900 1250 50  0001 C CNN
+	1    5900 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1650 5550 1650
+Wire Wire Line
+	5250 1750 5550 1750
+Wire Wire Line
+	5250 1950 5550 1950
+Wire Wire Line
+	5250 2050 5550 2050
+Wire Wire Line
+	5250 2150 5550 2150
+Wire Wire Line
+	5750 1650 5950 1650
+Wire Wire Line
+	5750 1750 5900 1750
+Wire Wire Line
+	5750 1950 6450 1950
+Wire Wire Line
+	5750 2050 6450 2050
+Wire Wire Line
+	5750 2150 6450 2150
+Wire Wire Line
+	5950 2200 5950 1650
+Connection ~ 5950 1650
+Wire Wire Line
+	5950 1650 6450 1650
+Wire Wire Line
+	5900 1450 5900 1750
+Connection ~ 5900 1750
+Wire Wire Line
+	5900 1750 6450 1750
+Wire Wire Line
+	6950 1850 7650 1850
+Wire Wire Line
+	6950 1950 7650 1950
+Wire Wire Line
+	6950 2050 7650 2050
+Wire Wire Line
+	6950 2150 7650 2150
+Wire Wire Line
+	7850 1850 8000 1850
+Wire Wire Line
+	7850 1950 8000 1950
+Wire Wire Line
+	7850 2050 8000 2050
+Wire Wire Line
+	7850 2150 8000 2150
+Wire Wire Line
+	5950 3050 6500 3050
+Wire Wire Line
+	5750 3050 5600 3050
+Wire Wire Line
+	6500 3450 5950 3450
+Wire Wire Line
+	5750 3450 5600 3450
+$Comp
+L Device:R_Small R9
+U 1 1 611B6A52
+P 7750 1950
+F 0 "R9" V 7700 1800 50  0000 C CNN
+F 1 "47" V 7700 2100 50  0000 C CNN
+F 2 "" H 7750 1950 50  0001 C CNN
+F 3 "~" H 7750 1950 50  0001 C CNN
+	1    7750 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 611B6802
+P 7750 1850
+F 0 "R8" V 7700 1700 50  0000 C CNN
+F 1 "47" V 7700 2000 50  0000 C CNN
+F 2 "" H 7750 1850 50  0001 C CNN
+F 3 "~" H 7750 1850 50  0001 C CNN
+	1    7750 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 611ECC1E
+P 6050 5750
+F 0 "D2" V 6089 5632 50  0000 R CNN
+F 1 "LED" V 5998 5632 50  0000 R CNN
+F 2 "" H 6050 5750 50  0001 C CNN
+F 3 "~" H 6050 5750 50  0001 C CNN
+	1    6050 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 611ED4A3
+P 6400 5750
+F 0 "D3" V 6439 5632 50  0000 R CNN
+F 1 "LED" V 6348 5632 50  0000 R CNN
+F 2 "" H 6400 5750 50  0001 C CNN
+F 3 "~" H 6400 5750 50  0001 C CNN
+	1    6400 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R14
+U 1 1 611EF10D
+P 6050 5500
+F 0 "R14" H 6109 5546 50  0000 L CNN
+F 1 "1K" H 6109 5455 50  0000 L CNN
+F 2 "" H 6050 5500 50  0001 C CNN
+F 3 "~" H 6050 5500 50  0001 C CNN
+	1    6050 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R15
+U 1 1 611EFAA8
+P 6400 5500
+F 0 "R15" H 6459 5546 50  0000 L CNN
+F 1 "1K" H 6459 5455 50  0000 L CNN
+F 2 "" H 6400 5500 50  0001 C CNN
+F 3 "~" H 6400 5500 50  0001 C CNN
+	1    6400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611FD95A
+P 6050 5900
+F 0 "#PWR?" H 6050 5650 50  0001 C CNN
+F 1 "GND" H 6055 5727 50  0000 C CNN
+F 2 "" H 6050 5900 50  0001 C CNN
+F 3 "" H 6050 5900 50  0001 C CNN
+	1    6050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611FDFFC
+P 6400 5900
+F 0 "#PWR?" H 6400 5650 50  0001 C CNN
+F 1 "GND" H 6405 5727 50  0000 C CNN
+F 2 "" H 6400 5900 50  0001 C CNN
+F 3 "" H 6400 5900 50  0001 C CNN
+	1    6400 5900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 5400 1    50   Input ~ 0
+APPLE_5V
+$Comp
+L power:VCC #PWR?
+U 1 1 611FF1B2
+P 6050 5400
+F 0 "#PWR?" H 6050 5250 50  0001 C CNN
+F 1 "VCC" H 6065 5573 50  0000 C CNN
+F 2 "" H 6050 5400 50  0001 C CNN
+F 3 "" H 6050 5400 50  0001 C CNN
+	1    6050 5400
+	1    0    0    -1  
+$EndComp
+Text Notes 7450 7500 0    50   ~ 0
+Main Schematic
+Text Notes 8200 7650 0    50   ~ 0
+15/Aug/2021
+Text Notes 7100 6750 0    50   ~ 0
+PS/2 to apple-ii keyboard adapter\nAdrian Chadd <adrian@creative.net.au>
+Text Notes 7300 7250 0    50   ~ 0
+1
+Text Notes 7400 7250 0    50   ~ 0
+1
+$EndSCHEMATC
