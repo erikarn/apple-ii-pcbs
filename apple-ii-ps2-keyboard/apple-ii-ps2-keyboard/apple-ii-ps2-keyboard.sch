@@ -523,8 +523,8 @@ Text Notes 7450 7500 0    50   ~ 0
 Main Schematic
 Text Notes 8200 7650 0    50   ~ 0
 15/Aug/2021
-Text Notes 7100 6750 0    50   ~ 0
-PS/2 to apple-ii keyboard adapter\nAdrian Chadd <adrian@creative.net.au>
+Text Notes 7100 6850 0    50   ~ 0
+PS/2 to apple-ii keyboard adapter\nAdrian Chadd <adrian@creative.net.au>\nRev 0.1 (prototype)
 Text Notes 7300 7250 0    50   ~ 0
 1
 Text Notes 7400 7250 0    50   ~ 0
