@@ -638,7 +638,7 @@
   )
 
   (module Button_Switch_THT:KSA_Tactile_SPST (layer F.Cu) (tedit 5A02FE31) (tstamp 6130CA33)
-    (at 23.622 94.234)
+    (at 22.86 94.234)
     (descr "KSA http://www.ckswitches.com/media/1457/ksa_ksl.pdf")
     (tags "SWITCH SMD KSA SW")
     (path /612F27A6)
