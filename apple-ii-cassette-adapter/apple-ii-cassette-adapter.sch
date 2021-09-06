@@ -428,23 +428,23 @@ $EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 6130002D
-P 3100 1200
-F 0 "#PWR0115" H 3100 950 50  0001 C CNN
-F 1 "GND" H 3105 1027 50  0000 C CNN
-F 2 "" H 3100 1200 50  0001 C CNN
-F 3 "" H 3100 1200 50  0001 C CNN
-	1    3100 1200
+P 1500 1700
+F 0 "#PWR0115" H 1500 1450 50  0001 C CNN
+F 1 "GND" H 1505 1527 50  0000 C CNN
+F 2 "" H 1500 1700 50  0001 C CNN
+F 3 "" H 1500 1700 50  0001 C CNN
+	1    1500 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J2
 U 1 1 612FCFD9
-P 2900 1100
-F 0 "J2" H 3008 1281 50  0000 C CNN
-F 1 "POWER" H 3008 1190 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2900 1100 50  0001 C CNN
-F 3 "~" H 2900 1100 50  0001 C CNN
-	1    2900 1100
+P 1300 1600
+F 0 "J2" H 1408 1781 50  0000 C CNN
+F 1 "POWER" H 1408 1690 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 1600 50  0001 C CNN
+F 3 "~" H 1300 1600 50  0001 C CNN
+	1    1300 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -478,9 +478,9 @@ Text GLabel 2900 3000 2    50   Input ~ 0
 LCD_A0
 Text GLabel 1900 2700 0    50   Input ~ 0
 SDCARD_CD
-Text GLabel 3800 2400 0    50   Input ~ 0
-LCD_D9
 Text GLabel 3800 2200 0    50   Input ~ 0
+LCD_D9
+Text GLabel 3800 2400 0    50   Input ~ 0
 LCD_D8
 Text GLabel 3800 3200 0    50   Input ~ 0
 LCD_A3
@@ -626,4 +626,43 @@ F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 2400 3000
 	1    0    0    -1  
 $EndComp
 Connection ~ 2500 4000
+$Comp
+L power:GND #PWR0124
+U 1 1 613AA1CD
+P 1450 1100
+F 0 "#PWR0124" H 1450 850 50  0001 C CNN
+F 1 "GND" H 1455 927 50  0000 C CNN
+F 2 "" H 1450 1100 50  0001 C CNN
+F 3 "" H 1450 1100 50  0001 C CNN
+	1    1450 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 1100 0    50   Input ~ 0
+PWR_IN
+Text GLabel 1450 900  2    50   Input ~ 0
+PWR_IN
+Text GLabel 1500 1600 2    50   Input ~ 0
+PWR_IN
+$Comp
+L Connector:Barrel_Jack_Switch J8
+U 1 1 613B2A75
+P 1150 1000
+F 0 "J8" H 1207 1317 50  0000 C CNN
+F 1 "DC Input" H 1207 1226 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 1200 960 50  0001 C CNN
+F 3 "~" H 1200 960 50  0001 C CNN
+	1    1150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 613D2A20
+P 2800 6200
+F 0 "#PWR?" H 2800 5950 50  0001 C CNN
+F 1 "GND" H 2805 6027 50  0000 C CNN
+F 2 "" H 2800 6200 50  0001 C CNN
+F 3 "" H 2800 6200 50  0001 C CNN
+	1    2800 6200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
