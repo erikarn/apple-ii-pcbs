@@ -183,17 +183,6 @@ LCD_I2C_SCL
 Text GLabel 1900 2600 0    50   Input ~ 0
 NANO_AUDIO_OUTPUT
 $Comp
-L Connector:AudioJack2_Ground_Switch J4
-U 1 1 6132D793
-P 2800 5900
-F 0 "J4" H 2832 6325 50  0000 C CNN
-F 1 "AUDIO" H 2832 6234 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 2800 6100 50  0001 C CNN
-F 3 "~" H 2800 6100 50  0001 C CNN
-	1    2800 5900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x02_Male J5
 U 1 1 6132F192
 P 3550 5700
@@ -655,14 +644,25 @@ F 3 "~" H 1200 960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 613D2A20
-P 2800 6200
-F 0 "#PWR?" H 2800 5950 50  0001 C CNN
-F 1 "GND" H 2805 6027 50  0000 C CNN
-F 2 "" H 2800 6200 50  0001 C CNN
-F 3 "" H 2800 6200 50  0001 C CNN
-	1    2800 6200
+L Connector:AudioJack3_Ground_SwitchTR J4
+U 1 1 613EAD6A
+P 2800 5700
+F 0 "J4" H 2782 6025 50  0000 C CNN
+F 1 "AUDIO" H 2782 5934 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 2800 5700 50  0001 C CNN
+F 3 "~" H 2800 5700 50  0001 C CNN
+	1    2800 5700
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 613F1F0F
+P 3000 5600
+F 0 "#PWR0126" H 3000 5350 50  0001 C CNN
+F 1 "GND" H 3005 5427 50  0000 C CNN
+F 2 "" H 3000 5600 50  0001 C CNN
+F 3 "" H 3000 5600 50  0001 C CNN
+	1    3000 5600
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
